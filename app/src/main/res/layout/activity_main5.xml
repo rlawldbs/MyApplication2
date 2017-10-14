@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.Main5Activity">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="201dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="155dp"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/php"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:onClick="on"
+            android:text="전화번호추가"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <Button
+            android:id="@+id/pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cl"
+            android:text="프로필" />
+
+        <Button
+            android:id="@+id/ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ic"
+            android:text="통화" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ck"
+            android:text="연락처" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
